@@ -1,0 +1,20 @@
+{
+    "swagger": "2.0",
+    "info": {
+      "title": "API de Cursos Adobe",
+      "version": "1.0.0"
+    },
+    "paths": {
+      "/api/cursos": {
+        "get": {
+          "summary": "Obtiene la lista de cursos",
+          "responses": {
+            "200": {
+              "description": "OK"
+            }
+          }
+        }
+      }
+    }
+  }
+  
